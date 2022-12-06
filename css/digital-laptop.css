@@ -9,7 +9,7 @@ h1 {
 }
 
 .container {
-  /* display: grid; */
+  display: grid;
   grid-template-columns: 2fr 1fr 1fr;
   grid-row: auto;
   gap: 24px;
