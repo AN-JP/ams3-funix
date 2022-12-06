@@ -71,16 +71,13 @@
   }
 
   /* chứng chỉ giải thưởng  */
+  .certificate-1.row {
+    flex-direction: column;
+  }
 
-  /* .container h1 {
-    font-size: 28px;
-    padding-top: 30px;
-  } */
-
-  .certificate-1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 20px 0;
+  .col-sm-5,
+  .col-sm-7 {
+    width: 100% !important;
   }
 
   .certificate-1 img {
@@ -88,6 +85,9 @@
     height: auto;
   }
 
+  .certificate-1-text p:first-child {
+    font-size: 18px;
+  }
   #certificate .section-title {
     padding-left: 15px;
   }

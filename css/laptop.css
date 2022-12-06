@@ -8,6 +8,7 @@ body {
   font-family: "inter", sans-serif !important;
   color: #444;
   font-size: 16px;
+  padding: 0 20px;
 }
 
 .bg-grey {
@@ -15,10 +16,8 @@ body {
 }
 
 section > .container {
-  /* width: 1170px; */
   margin: auto;
   display: block;
-  /* padding: 30px 50px; */
 }
 
 /* Thanh banner */
@@ -28,7 +27,6 @@ section > .container {
     url("../images/banner.jpg");
   background-size: cover;
   background-position: center;
-  /* background-repeat: no-repeat; */
   color: #fff;
   position: relative;
 }
@@ -87,7 +85,7 @@ section > .container {
   width: 24px;
   height: 28px;
   transform: scale(7);
-  border: 1px solid #fff;
+  border: 0.5px solid #fff;
   border-radius: 50%;
 }
 /* nâng cao nav-bar */
@@ -261,13 +259,12 @@ ul li:last-child {
 
 .certificate-1:nth-child(2) {
   border-left: 1px solid #d6c08d;
-  padding-left: 15px;
 }
 
 .certificate-1 {
   display: grid;
   grid-template-columns: 40% 60%;
-  margin: 20px 0;
+  margin: 20px 0 !important;
 }
 
 .certificate-1:nth-child(3),
@@ -281,12 +278,17 @@ ul li:last-child {
   line-height: 1.7;
 }
 img {
-  width: 280px;
+  width: 230px;
   height: auto;
 }
 
 .certificate-1 p:first-child {
   font-weight: 500;
+  font-size: 14px;
+}
+
+.col-sm-7 p {
+  line-height: 1;
 }
 
 /* Dự án */
@@ -302,12 +304,12 @@ img {
 .project-2,
 .project-3 {
   display: grid;
-  grid-template-rows: 308px 100px 75px auto;
+  grid-template-rows: 240px 100px 75px auto;
 }
 
 /* project--1 */
 .project--1 img {
-  width: 448px;
+  width: 350px;
   height: auto;
 }
 
